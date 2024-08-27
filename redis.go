@@ -635,6 +635,7 @@ type Client struct {
 
 // NewClient returns a client to the Redis Server specified by Options.
 func NewClient(opt *Options) *Client {
+	fmt.Println("aaaaaabbbbbbb")
 	opt.init()
 
 	c := Client{
